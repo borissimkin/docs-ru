@@ -1,12 +1,12 @@
-# Props {#props}
+# Входные параметры компонента {#props}
 
-> This page assumes you've already read the [Components Basics](/guide/essentials/component-basics). Read that first if you are new to components.
+> Данная страница предполагает, что вы уже ознакомились с [Основы Компонентов](/guide/essentials/component-basics). Сначала ознакомьтесь с данной страницей, если вы новичок в компонентах.
 
 <div class="options-api">
-  <VueSchoolLink href="https://vueschool.io/lessons/vue-3-reusable-components-with-props" title="Free Vue.js Props Lesson"/>
+  <VueSchoolLink href="https://vueschool.io/lessons/vue-3-reusable-components-with-props" title="Бесплатный урок о входных параметрах компонента Vue.js"/>
 </div>
 
-## Props Declaration {#props-declaration}
+## Объявление входных параметров {#props-declaration}
 
 Vue components require explicit props declaration so that Vue knows what external props passed to the component should be treated as fallthrough attributes (which will be discussed in [its dedicated section](/guide/components/attrs)).
 
