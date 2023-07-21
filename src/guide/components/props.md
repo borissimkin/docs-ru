@@ -1,18 +1,18 @@
-# Входные параметры компонента {#props}
+# Props {#props}
 
 > Данная страница предполагает, что вы уже ознакомились с [Основы Компонентов](/guide/essentials/component-basics). Сначала ознакомьтесь с данной страницей, если вы новичок в компонентах.
 
 <div class="options-api">
-  <VueSchoolLink href="https://vueschool.io/lessons/vue-3-reusable-components-with-props" title="Бесплатный урок о входных параметрах компонента Vue.js"/>
+  <VueSchoolLink href="https://vueschool.io/lessons/vue-3-reusable-components-with-props" title="Бесплатный урок о props компонента Vue.js"/>
 </div>
 
-## Объявление входных параметров {#props-declaration}
+## Объявление props {#props-declaration}
 
-Vue components require explicit props declaration so that Vue knows what external props passed to the component should be treated as fallthrough attributes (which will be discussed in [its dedicated section](/guide/components/attrs)).
+Компоненты Vue требуют явного объявления props, чтобы Vue знал, какие внешние props, переданные компоненту, должны рассматриваться как атрибуты (о них будет рассказано в [соответствующем разделе](/guide/components/attrs)).
 
 <div class="composition-api">
 
-In SFCs using `<script setup>`, props can be declared using the `defineProps()` macro:
+В SFC, использующих `<script setup>`, props могут быть объявлены с помощью макроса `defineProps()`:
 
 ```vue
 <script setup>
